@@ -8,7 +8,7 @@ class Navbar extends StatelessWidget {
     return Container(
         height: 100,
         child: const Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: <Widget>[
             SizedBox(
               width: 150,
